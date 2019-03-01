@@ -1,0 +1,36 @@
+html{ 
+    background-color: rgba(238, 178, 88, 0.493); 
+}
+
+#students{
+    text-align: center;
+    align-items: center; 
+    justify-content: center;
+}
+
+footer{
+    clear: both;
+    position: relative;
+    height: 40px; 
+    margin-top: 40px;
+    text-align: center;
+}
+
+.headers{
+    text-align: center;
+}
+
+h2{
+    font-style: italic;
+}
+
+#button:hover{
+    background-color: lightblue;
+    border-radius: 10%;
+}
+
+table{
+    width: 10%;
+    height: 10%;
+}
+

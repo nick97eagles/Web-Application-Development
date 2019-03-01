@@ -1,0 +1,43 @@
+html{
+    background-color: rgb(168, 245, 228);
+    min-height: 100%;
+    position: relative;
+}
+
+header{
+    text-align: center;
+    font-weight: bold; 
+    font-size: 250%;
+}
+
+#links{
+    text-align: center; 
+    font-size: 50%;
+}
+
+a:hover{
+    color: blue;
+}
+
+#submit{
+    margin-top: 5%;
+    margin:5%;
+}
+
+form{
+    margin-top: 5%;
+    margin: 0 auto; 
+    width: 350px;
+    text-align: center; 
+    font-size: 150%;
+}
+
+footer{
+    background-color: lightgrey; 
+    border: 2px solid black; 
+    text-align: center; 
+    padding-top: 10px; 
+    /* position: absolute;  */
+    bottom: 0; 
+    width: 100%; 
+}
