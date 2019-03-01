@@ -1,0 +1,160 @@
+/* Everything is in order in which they appear on the screen except for the middle boxes because of the float property */
+
+/* adds the background color to the web page  */
+body{
+    background-color: rgba(245, 219, 180, 0.877);
+}
+
+/* adds a border, makes the background a blueish color, and positions it in the middle of the page. */
+header{
+    top: 10px; /* added top proprety */
+    border: 10px double black; 
+    border-width: 10px;
+    text-align: center; 
+    width: 250px; 
+    left: 41%;
+    position: relative;
+    background-color: rgba(34, 168, 185, 0.425); 
+}
+
+/* aligns the text to be center on the page  */
+#zen-summary{
+    text-align: center; 
+}
+
+/* creates a border that is pink, and floats the box the left side of the screen. */
+.preamble{
+    border: 10px double rgb(183, 65, 212); 
+    padding: 10px;
+    float: left;
+    clear: right; 
+    width: 30%;
+    margin-right: 3%;
+}
+
+/* when mouse hovers over the preamble box the background color will change to pink to match the border */
+.preamble:hover{
+    background-color: rgba(231, 58, 58, 0.349); 
+}
+
+/* places the header in the center top of the box */
+.preamble h3{
+    text-align: center;
+}
+
+/* creates a border that is purple and floats it to the right side of the screen */
+.explanation{
+  float: right;
+   border: 10px double rgb(90, 35, 241); 
+   width: 31%;
+   padding: 10px; 
+}
+
+/* when the mouse hovers over it changes the background of the box to the color of the border */
+.explanation:hover{
+    background-color: rgba(120, 73, 206, 0.404); 
+}
+
+/* places the header in the center top of the box */
+.explanation h3{
+    text-align: center;
+}
+
+/* the box is placed in the center between preamble and explanation. Has a border as well */
+.participation{
+    overflow: auto; 
+    width: 25%; 
+    border: 10px double rgb(41, 114, 211); 
+    padding: 10px;  
+}
+
+/* when mouse hovers over it will change the background of the box to match the border color */
+.participation:hover{
+    background-color: lightblue; 
+}
+
+/* places the header in the center top of the box */
+.participation h3{
+    text-align: center;
+}
+
+/* creates a border thaht is blue and floats it to the left side of the screen */
+.benefits{
+    float: left; 
+    padding: 15px; 
+    border: 10px double rgb(9, 132, 204); 
+    width: 20%;   
+    margin-right: 5%; 
+    margin-left: 3%;
+    margin-top: 5%; 
+}
+
+/* when mouse moves over the box the background changes to match the color of the border */
+.benefits:hover{
+    background-color: rgba(54, 167, 167, 0.692);
+}
+
+/* places the header in the center top of the box */
+.benefits h3{
+    text-align: center; 
+}
+
+/* creates a border that is yellow and floats it to the right side of the screen */
+.requirements{
+    border: 10px double rgb(230, 181, 77); 
+    overflow: auto; 
+    margin: 5%; 
+    width: 58%; /* fixed the width so the requirements box no longer shows up underneath benefits on smaller screens */
+    padding: 10px; 
+}
+
+/* when mouse moves over the box the background changes to match the color of the border */
+.requirements:hover{
+    background-color: rgba(212, 203, 71, 0.37);
+}
+
+/* places the header in the center top of the box */
+.requirements h3{
+    text-align: center; 
+}
+
+/* creates a footer with a purple background and centers it */
+footer{
+   border: 10px double rgb(56, 23, 23); 
+   width: 15%;
+   padding: 2px;
+   padding-left: 3%; 
+   margin-left: 40%;
+   margin-top: -3%;    
+}
+
+/* floats the bullet points to the left side of the box */
+#design-selection{
+   float: left; 
+   margin-left: 10%;
+   margin-right: 15%;
+   clear: right; 
+}
+
+/* floats the bullet points to the right side of the box */
+#design-archives{
+    float: right;
+    margin-right: 15%;
+}
+
+/* ensures that the list is in the center */
+#zen-resources{
+    overflow: auto; 
+}
+
+/* creates a border that is darkred and takes up the bottom of the screen.  */
+aside{
+    border: 10px double darkred;
+    overflow: auto;
+    margin-top: 1%; 
+}
+
+/* when the mouse hovers over it changes the background to the color of the borer */
+aside:hover{
+    background-color: rgba(228, 111, 111, 0.418); 
+}

@@ -1,0 +1,45 @@
+h1:hover{
+    font-family: "Nick", Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:lightblue; 
+}
+
+div{
+    color: rosybrown;
+    font-style: oblique;
+    font-weight: bold; 
+}
+
+hr{
+    color: black; 
+}
+
+#contact{
+    text-align: right; 
+}
+
+#validate{
+    text-align: center; 
+    font-style: unset;
+}
+
+.header{
+    font-style: italic;
+    font-size: 30px; 
+}
+/* Embeded font doesn't work. Tried many different different types many times but can't 
+   get it. */ 
+@font-face{
+    font-family: "Nick";
+    src: url(https://www.princexml.com/fonts/liberation/index.html/LiberationMono-Bold.ttf)
+        format("Truetype");
+}
+
+li:nth-child(odd){
+    font-weight: bold; 
+}
+li:nth-child(even){
+    font-style: italic; 
+}

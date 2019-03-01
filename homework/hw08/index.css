@@ -1,0 +1,27 @@
+html, body{
+    height: 100%; 
+    position: relative;
+}
+
+footer{
+    clear: both;
+    position: relative;
+    height: 40px; 
+    margin-top: 40px;
+    text-align: center;
+}
+
+#game_board{
+    margin-left: 4.5%;
+}
+
+#bank{
+    border: 2px solid black; 
+    margin: 2%; 
+    margin-left: 41%; 
+    width: 15%; 
+    padding: 1em; 
+}
+
+/* couldn't seem to get the board and the buttons to print in the middle of the screen. Tried what I thought was everything */
+

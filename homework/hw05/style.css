@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(83, 83, 236, 0.76); 
+    }
+    
+    header{
+        border: 10px double black; 
+        background-color: white;  
+        text-align: center; 
+        font-size: 200%;
+        width: 40%;
+        margin-left: 30%;
+    }
+    
+    #books:hover{
+        font-weight: bold;  
+    }
+    
+    #series:hover{
+        font-weight: bold;  
+    }
+    
+    #authors:hover{
+        font-weight: bold;  
+    }
+    
+    div{
+        border: 6px solid black; 
+        background-color: aqua;
+        text-align: center; 
+        margin-top: 5%;
+    }
+    
+    /* styling for php data input */
+    table{
+        border: 6px dashed black; 
+        text-align: center; 
+        margin-left: 33%;
+        margin-top: 3%;
+        width: 35%;
+        }

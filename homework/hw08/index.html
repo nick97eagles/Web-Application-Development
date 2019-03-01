@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wheel of Fortune</title>
+    <script src="javascript.php" type="text/javascript"></script>
+    <script src="puzzles.js" type="text/javascript"></script>
+    <link href="index.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <h1 style="text-align: center;">WHEEL OF FORTUNE!</h1>
+
+    <div id="bank" style="text-align: center;">
+        Balance
+    </div>
+
+    <div style="text-align: center;">
+        Choose a puzzle to begin the game then click 'Load Board'
+    </div>
+
+    <div id="spin" style="text-align: center">
+        <button id="spin_wheel" onclick="spinWheel();">Spin Wheel</button>
+    </div>
+
+    <div id="puzzles" style="text-align: center;">
+        <button id="load_puzzles" onclick="writeTable()">Load Puzzles</button>
+    </div>
+
+    <div id="board" style="text-align: center;">
+        <button id ="display_board" onclick="displayBoard()">Load Board</button>
+    </div>
+
+    <div id="form">
+
+    </div>
+
+
+<footer>
+    <p id="validate"><a href="https://validator.w3.org/check/referer">validate  HTML</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">validate CSS</a></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>HomeWork 1</title>
+    </head>
+    <body>
+        <h1>Chapter 2 Coding Assignment</h1>
+        <p>
+          In this assingment you will duplicate the contents of this document in valid HTML. Remember that your goal is 
+        to capture the sturcture of this document, not just in its apperance. Be sure that you follow all applicable web
+        standards in creating your document. Commit a single HTML document to your forked class repository on
+        Gitlab when you are done. Note that the url for the image below is <br/> 
+        http://cptr220.cs.wallawalla.edu/chapter02/html.jpg.
+         </p>
+
+        <img src = " http://cptr220.cs.wallawalla.edu/chapter02/html.jpg " alt = "html people "/>
+
+        <h2>Comedy Section</h2>
+
+        <p>
+          In the first section of this document, we will present a short excerpt from the Abbot & Costello sketch 
+        "Who's on first".
+        </p>
+
+        <p>    
+               Abbott: Who is on first?<br/>
+               Costello: I'm asking <em>you</em> who's on first.<br/>
+               Abbott: That's the man's name. <br/>
+               Costello: That's who's name?<br/>
+               Abbott: Yes
+         </p>
+
+        <p>
+          The video for this sketch can be found at <a href="https://archive.org/details/WhosOnFirstAbbottAndCostello">
+        https://archive.org/details/WhosOnFirstAbbottandCostello</a> 
+        and is embeded below. To embed, use the URL<br/>
+        https://archive.org/download/WhosOnFirstAbbottAndCostello/Abbott-And-Costello-Whos-On-First-HDwww.savevidcom.mp4.
+        </p>
+
+        <!--Embeded link does not work-->
+        <!--Start of page 2-->
+        <embed type = "video/mp4"
+               src="https://archive.org/download/WhosOnFirstAbbottAndCostello/Abbott-And-Costello-Whos-On-First-HDwww.savevid.com.mp4."
+               width="300"
+               height="200"/>
+
+        <h2>Data Section</h2>
+        <p>
+          The table below displays the contents of our textbook, and the modules into which they have been arranged in 
+        this class. <strong>Be sure to use &lt;thead&gt;, &lt;tbody&gt;, and &lt;tfoot&gt; tags as appropriate.</strong>
+        A detailed list of topics covered in the first module follows the table below the horizontal rule.
+        </p>
+
+        <!--Beginning of Table-->
+        <table border="1">
+            <caption>Web Application Development Modules</caption>
+            <tr>
+                <th></th>
+                <th>Chapter</th>
+                <th>Page</th>
+            </tr>
+            <tr>
+                <th rowspan="3">Module 1</th>
+                <td>Chapter 2*</td><td>13</td>
+            </tr>
+            <tr>
+                <td>Chapter 3</td><td>49</td>
+            </tr>
+            <tr>
+                <td>Chapter 4</td><td>89</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Module 2</th>
+                <td>Chapter 5</td><td>147</td>
+            </tr>
+            <tr>
+                <td>Chapter 6</td><td>205</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3">Module 3</th>
+                <td>Chapter 13</td><td>489</td>
+            </tr>
+            <tr>
+                <td>Chapter 8</td><td>273</td>
+            </tr>
+            <tr>
+                <td>Chapter 9</td><td>335</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Module 4</th>
+                <td>Chapter 11</td><td>409</td>
+            </tr>
+            <tr>
+                <td>Chapter 12</td><td>441</td>
+            </tr>
+
+        </table>
+
+        <p>*This Chapter</p>
+        <hr />
+
+        <!--Beginning of Lists-->
+        <p><strong>Module 1 Content:</strong></p>
+
+        <ol>
+            <li>
+                Chapter 2: HTML Basics
+                <ul>
+                    <li>HTML tags</li>
+                    <li>Web Standards</li>
+                </ul>
+            </li>
+            <li>
+                Chapter 3: CSS for styling
+                <ul>
+                    <li>CSS Selectors</li>
+                    <li>CSS Properties</li>
+                    <li>CSS Precedence</li>
+                </ul>
+            </li>
+            <li>
+                Chapter 4: Page Layout
+            </li>
+        </ol>
+
+        <p>                 <!--Validation link -->
+            <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fmorini-cptr220.cs.wallawalla.edu%2Fhomework%2Fhw01%2Fhomework1.html">validate me
+            </a>(note: you may have errors related to border, cellspacing, and cellpadding attributes)
+        </p>
+    </body>
+</html>
