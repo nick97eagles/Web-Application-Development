@@ -1,0 +1,44 @@
+/* ****************************************************************
+ * CSS for Font example
+ * *****************************************************************/
+ 
+p.ff1 {
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 12pt;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: small-caps;
+}
+
+p.ff2 {
+  font-family: Times, serif;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: normal;
+}
+
+@font-face {
+  font-family: "Linux Libertine";
+  src: url(LinLibertine_Rah.ttf);
+}
+
+h1 {
+  font-family: "Linux Libertine", Times, serif;
+  font-size: 24pt;
+  font-weight: bold;
+  font-style: normal;
+  font-variant: small-caps;
+}
+
+h2 {
+  font-family: Helvetica, Arial, Sans-serif;;
+  font-size: 18pt;
+  font-weight: bold;
+  font-style: normal;
+  font-variant: normal;
+}
+
+.td1 { text-decoration: line-through; }
+.td2 { text-decoration: overline; }
+.td3 { text-decoration: underline; }

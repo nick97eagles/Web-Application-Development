@@ -1,0 +1,284 @@
+/* styles that apply to all tables */
+
+h1 {
+    font-size: 16pt;
+}
+
+.headings {
+    padding-top: 5px;
+    background: #eee;
+    width: 525px;
+    float: left;
+    border-bottom: 1px solid black;
+    font-size: 8pt;
+    text-align: center;
+}
+
+.buttonBar {
+    background: #eee;
+    width: 525px;
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top: 3px;
+    float: left;
+}
+
+.error {
+    background: #ffaaaa;
+}
+
+.noerror {
+    background: none;
+}
+
+.inst {
+    font-size: 10pt;
+    width: 517px;
+    padding: 5px;
+}
+
+
+/* styles that apply specifically
+to cumulative GPA table */
+
+.intro {
+    width: 526px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+#cum {
+    width: 525px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+
+#cum:after {
+    content: ".";
+    height: 1px;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+#cum .headings>div {
+    width: 175px;
+    height: 20px;
+    float: left;
+}
+
+.cumRow {
+    float: left;
+    width: 525px;
+    height: 26px;
+    padding-top: 3px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.cumRow>div {
+    width: 175px;
+    float: left;
+    text-align: center;
+}
+
+
+/* styles that apply
+specifically to the course table */
+
+#cls {
+    width: 525px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+
+#cls:after {
+    content: ".";
+    height: 1px;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+#cls .headings>div {
+    width: 131px;
+    height: 20px;
+    float: left;
+}
+
+.clsRow {
+    float: left;
+    width: 525px;
+    height: 26px;
+    padding-top: 3px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.clsRow>div {
+    width: 131px;
+    float: left;
+    text-align: center;
+}
+
+.clsRep {
+    border: none;
+    background: none;
+}
+
+#clsRepEntry {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    background: #fff;
+    color: #000;
+    overflow: hidden;
+    transition: height 0.5s, width 0.5s, margin 0.5s;
+}
+
+#clsRepHead {
+    float: none;
+    height: 18px;
+    text-align: center;
+    width: 200px;
+}
+
+#clsRepText {
+    font-size: 8pt;
+    padding: 4px;
+}
+
+#clsRepForm {
+    display: block;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#clsRepButtons {
+    float: none;
+    text-align: center;
+    width: 200px;
+    height: 42px;
+    padding-top: 2px;
+}
+
+#clsRepEntry.open {
+    display: block;
+    margin-top: -50px;
+    margin-left: -115px;
+    height: 125px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+/* styles for results display */
+
+#res {
+    width: 525px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+
+#res:after {
+    content: ".";
+    height: 1px;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.resLabel {
+    font-size: 8pt;
+    text-align: right;
+    margin-top: 5px;
+    width: 150px;
+    float: left;
+}
+
+.resValue {
+    display: block;
+    font-size: 8pt;
+    font-weight: bold;
+    margin: 2px 15px 2px 5px;
+    border: 1px solid #33ad33;
+    padding: 2px;
+    width: 65px;
+    float: left;
+    background: #f93;
+    text-align: center;
+}
+
+
+/* styles for predictive gpa
+chart */
+
+#gol {
+    width: 525px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+
+#gol:after {
+    content: ".";
+    height: 1px;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+#gol>div.headings {
+    padding-top: 2px;
+    border-bottom: none;
+}
+
+#golNoCum {
+    overflow: hidden;
+    transition: height 1s;
+}
+
+#golNoCum>span {
+    display: block;
+    border-top: 1px solid black;
+    font-size: 8pt;
+    background: #ffaaaa;
+}
+
+#canvas {
+    width: 500px;
+    transition: height 1s;
+}
+
+
+/* styles for hiding and
+showing rows */
+
+.toHide {
+    height: 0px;
+}
+
+.toShow {
+    height: 28px;
+}
+
+.toChart {
+    margin: auto;
+    height: 400px;
+    border-top: 1px solid black;
+}
+
+
+/* more of a margin between sidebar and content */
+
+#pageContent {
+    padding-left: 20px;
+}

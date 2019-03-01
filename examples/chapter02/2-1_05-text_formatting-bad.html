@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bad Text Formatting</title>
+  </head>
+  <body>
+  
+    <h3>Pick the heading that matches the size I want!</h3>
+  
+    This text should not be outside of a paragraph block.
+    
+    <p>
+    Even when I'm inside a paragraph block, there are restrictions.  I
+    shouldn't use blockquotes inside the paragraph, for example.
+      
+    <blockquote>
+      Once upon a midnight dreary, while I pondered, weak and weary,
+      Over many a quaint and curious volume of forgotten lore,
+      While I nodded, nearly napping, suddenly there came a tapping,
+      As of some one gently rapping, rapping at my chamber door.
+      "'Tis some visitor," I muttered, "tapping at my chamber door-
+      Only this, and nothing more."
+    </blockquote>
+    
+    <hr>
+    
+    Above I forgot to close the paragraph tag, and I didn't make the
+    horizontal rule tag self-closing.  That is a no-no.<br /><br />
+
+    Another no-no was using the br tags to make a paragraph break, but the
+    validator won't catch that.  It won't even object to the use of the
+    <i>italics</i> tag and the <b>bold face</b> tag, although they are now
+    considered bad form.  It will, however, object to the <u>underline</u> tag.
+
+  </body>
+</html>

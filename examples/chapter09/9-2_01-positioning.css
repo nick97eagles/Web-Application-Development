@@ -1,0 +1,30 @@
+      #outer {
+          display: block;
+          width: 400px;
+          height: 200px;
+          background: blue;
+          position: absolute;
+          top: 10px;
+          left: 100px;
+          z-index: 100;
+      }
+      
+      #inner {
+          display: block;
+          width: 200px;
+          height: 150px;
+          background: green;
+          position: absolute;
+          top: 10px;
+          left: 100px;
+          z-index: 200;
+      }
+      
+      #control {
+          display: block;
+          width: 150px;
+          min-height: 200px;
+          border: 1px solid black;
+          float: right;
+          padding: 2px;
+      }

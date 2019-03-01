@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Context Selectors</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="4-1_02-context_selectors.css" type="text/css" />
+  </head>
+  <body>
+ 
+    <header>
+      <h1 myattribute="2">Context Selectors</h1>
+    </header>
+    
+    <section id="intro">
+      <p>
+        In this example we will look at several more advanced CSS
+        selectors which allow us to specify the context in which an 
+        HTML entity must appear in order to have the style rule apply.
+      </p>
+    </section>
+    
+    <section id="lists">  
+      <ul>
+        <li>Menus from local restaurants
+          <ol myattribute="1">
+  	    <li><a href="http://lacasitawallawalla.com/appetizers/4727129">La Casita</a></li>
+	    <li><a href="https://www.phoumysthai.com/">Phoumy's Thai Cuisine</a></li>
+	    <li><a href="http://www.thebrikwallawalla.com/menu-current/mainmenu.pdf">The Brik</a></li>
+	    <li><a href="http://bigcheesepizza.com/wp-content/uploads/Heplers-Updated-Menu.pdf">Hepler's Big Cheese Pizza</a></li>
+	  </ol>
+        </li>
+        <li>University Bulletins/Catalogs
+          <ol myattribute="2">
+	    <li><a href="https://bulletin.wallawalla.edu/en/2016-2017/2016-2017-Undergraduate-Bulletin">Walla Walla University</a></li>
+	    <li><a href="http://louisville.edu/undergraduatecatalog/versions/16_17_catalog.pdf">University of Louisville</a></li>
+	    <li><a href="http://catalog.iastate.edu/">Iowa State University</a></li>
+	    <li><a href="http://www.cityu.edu/wp-content/uploads/pdf/CityU_CourseCatalog.pdf">City University of Seattle</a></li>
+          </ol>
+        </li>
+      </ul>
+    </section>
+    
+    <footer>
+      <p>
+        There are three types of selectors that we will look at.  They
+	are: <span class="selector">selectors based on nesting</span>, 
+	<span class="selector">selectors based on attribute
+	values</span>, and <span class="selector">additional
+	pseudo-class selectors allowing us to insert content</span>.
+      </p>
+    
+      <p><a href="https://validator.w3.org/check/referer">validate me</a></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="8-2_01-calculator.css" type="text/css" />
+    <script language="javascript" src="8-2_01-calculator.js"></script>
+</head>
+
+<body>
+    <form id="calc">
+        <input type="text" id="calcInput" value="0" />
+        <button type="button" id="recrip" onclick="oneOver()">1/x</button>
+        <button type="button" id="square" onclick="squareMe()">x^2</button>
+        <button type="button" id="sqrt" onclick="squareRoot()">sqrt</button>
+        <button type="button" id="clear" onclick="clearInput()">AC</button>
+        <button type="button" id="num07" onclick="numPressed(7)">7</button>
+        <button type="button" id="num08" onclick="numPressed(8)">8</button>
+        <button type="button" id="num09" onclick="numPressed(9)">9</button>
+        <button type="button" id="times" onclick="opPressed('*')">*</button>
+        <button type="button" id="num04" onclick="numPressed(4)">4</button>
+        <button type="button" id="num05" onclick="numPressed(5)">5</button>
+        <button type="button" id="num06" onclick="numPressed(6)">6</button>
+        <button type="button" id="minus" onclick="opPressed('-')">-</button>
+        <button type="button" id="num01" onclick="numPressed(1)">1</button>
+        <button type="button" id="num02" onclick="numPressed(2)">2</button>
+        <button type="button" id="num03" onclick="numPressed(3)">3</button>
+        <button type="button" id="plus" onclick="opPressed('+')">+</button>
+        <button type="button" id="num00" onclick="numPressed(0)">0</button>
+        <button type="button" id="decimal" onclick="decPressed()">.</button>
+        <button type="button" id="opposite" onclick="changeSign()">+/-</button>
+        <button type="button" id="equal" onclick="eqPressed()">=</option>
+    </form>
+
+    <p>
+        <a href="https://validator.w3.org/check/referer">validate HTML</a>
+        | <a href="https://jigsaw.w3.org/css-validator/check/referer">validate CSS</a>
+    </p>
+</body>
+
+</html>

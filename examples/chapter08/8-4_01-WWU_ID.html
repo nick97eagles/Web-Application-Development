@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Example</title>
+    <script language="JavaScript">
+        function validator() {
+            var id = prompt("Enter your WWU identificaton number");
+            if (id.match(/[012]\d\d\d\d\d\d/)) {
+                id = id.replace(/(\d\d)(\d\d)(\d\d\d)/, "$1-$2-$3");
+                alert("Your formatted WWU identification number is " + id);
+            } else {
+                alert("You entered " + id + " which is not a valid id number.");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>JavaScript Example</h1>
+    <p>
+        <a href="javascript:validator()">Start</a>
+    </p>
+
+    <p>
+        <a href="https://validator.w3.org/check/referer">validate HTML</a>
+        | <a href="https://jigsaw.w3.org/css-validator/check/referer">validate CSS</a>
+    </p>
+</body>
+
+</html>

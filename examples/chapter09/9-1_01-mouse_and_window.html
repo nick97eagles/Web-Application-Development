@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Mouse and Window Events</title>
+    <style>
+        .warning {
+            background: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="test">
+        Mouse Coordinates: <span id="mcoord">none</span><br/> Window Size: <span id="wsize">none</span><br />
+    </p>
+    
+    <script language="javascript">
+            var mouseX = '';
+            var mouseY = '';
+            var sizeX = '';
+            var sizeY = '';
+    
+            function updateCoords(event) {
+                mouseX = event.clientX;
+                mouseY = event.clientY;
+                var coords = "(" + mouseX + "," + mouseY + ")";
+                document.getElementById('mcoord').innerHTML = coords;
+            }
+            window.addEventListener('mousemove', updateCoords);
+    
+            function updateSize(event) {
+                sizeX = window.innerWidth;
+                sizeY = window.innerHeight;
+                var size = sizeX + 'px by ' + sizeY + 'px';
+                document.getElementById('wsize').innerHTML = size;
+            }
+            window.addEventListener('load', updateSize);
+            window.addEventListener('resize', updateSize);
+    
+            function checkCoords() {
+                if (mouseX < 20 || mouseY < 20 || sizeX - mouseX < 20 || sizeY - mouseY < 20) {
+                    document.body.className = "warning";
+                } else {
+                    document.body.className = "";
+                }
+            }
+            window.addEventListener('mousemove', checkCoords);
+        </script>
+    
+    <p>
+        <a href="https://validator.w3.org/check/referer">validate HTML</a> | <a href="https://jigsaw.w3.org/css-validator/check/referer">validate CSS</a>
+    </p>
+</body>
+
+</html>

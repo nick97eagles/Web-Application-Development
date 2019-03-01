@@ -1,0 +1,28 @@
+/* ****************************************************************
+ * CSS for List example
+ * *****************************************************************/
+ 
+/* Change some colors */
+
+h1 { color: #993355; }
+.ta1 { color: #4C3; }
+.ta2 { color: olive; }
+* { color: blue; }
+
+
+/* and now some alignments */
+.ta1 {
+  text-indent: 0.5in;
+  text-align: left;
+}
+
+.ta2 {
+  text-indent: 20pt;
+  text-align: right;
+}
+
+/* and float the image */
+img { 
+  float: right;
+  padding: 2ex;
+}

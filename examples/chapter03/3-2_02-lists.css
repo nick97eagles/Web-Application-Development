@@ -1,0 +1,36 @@
+/* ****************************************************************
+ * CSS for List example
+ * *****************************************************************/
+ 
+/* unordered list style may be disc, circle, square, or none */
+
+ul {
+  list-style-type: none;
+}
+
+
+/* ordered list style may be decimal, decimal-leading-zero, lower-alpha,
+upper-alpha, lower-roman, upper-roman, lower-greek, lower-latin,
+upper-latin, armenian, or georgian */
+
+ol {
+  list-style-type: lower-greek;
+}
+
+
+/* We can also play with images
+
+ul {
+  list-style-image: url(http://www.hamsterbungalow.com/images/hamster-icon-for-bullet.JPG);
+  padding-left: 200px;
+}
+*/
+
+
+/* A pseudo-class selector from the next section
+
+li:first-child,li:last-child {
+  list-style-type: square;
+}
+
+*/

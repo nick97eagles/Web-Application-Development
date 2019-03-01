@@ -1,0 +1,65 @@
+/* Styles for table example */
+
+p {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+table {
+  margin:auto;
+  text-align: center;
+}
+      
+th {
+  padding: 2px;
+  background: #ccffcc;
+  margin: 0px;
+}
+     
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+     
+caption {
+  font-size: 8pt;
+  font-style: italic;
+  caption-side: bottom;
+}
+
+th.empty {
+  background: none;
+} 
+
+
+/* make the first line of the intro paragraph bold */
+p:first-line {
+  font-weight: bold;
+}
+
+/* add a drop-cap to the intro paragraph */
+p:nth-child(3):first-letter {
+  float: left;
+  font-size: 46px;
+  line-height: 36px;
+}
+
+/* make the text in the first data cell in each row green */
+td:nth-child(2) {
+  color: green;
+}
+
+/* highlight every-other row of the table */
+tr:nth-child(2n+3) {
+  background: #ddd;
+}
+
+/* put text in everything but the first row of the table in italics*/
+tr:not(:first-child) {
+  font-style: italic;
+}
+
+/* make cells red when you hover the mouse over them */
+td:hover,th:not(.empty):hover {
+  background: red;
+}

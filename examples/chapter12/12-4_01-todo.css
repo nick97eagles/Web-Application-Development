@@ -1,0 +1,123 @@
+* {
+    font-family: Ariel, Helvetica, sans-serif;
+}
+
+
+/* styles for the main work areas */
+
+.section {
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    border: 1px solid #999;
+    background: #eee;
+    border-radius: 15px;
+    min-height: 225px;
+}
+
+.section_label {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+button {
+    border-radius: 5px;
+    min-width: 75px;
+}
+
+
+/* styles for popup boxes */
+
+#new_list {
+    display: none;
+    position: absolute;
+    width: 250px;
+    top: 50px;
+    left: 75px;
+    z-index: 10;
+    height: 100px;
+    background: #fff;
+    border: 1px solid #aaa;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 10pt;
+}
+
+#new_list label {
+    display: inline-block;
+    width: 75px;
+    margin-top: 10px;
+}
+
+#new_list input {
+    width: 150px;
+}
+
+#new_list button {
+    margin-top: 10px;
+}
+
+#new_list button:not(:last-child) {
+    margin-left: 45px;
+}
+
+#new_item {
+    display: none;
+    position: absolute;
+    width: 350px;
+    top: 50px;
+    left: 475px;
+    z-index: 10;
+    height: 135px;
+    background: #fff;
+    border: 1px solid #aaa;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 10pt;
+}
+
+#new_item label {
+    display: inline-block;
+    width: 75px;
+    margin-top: 10px;
+}
+
+#new_item input {
+    width: 260px;
+}
+
+#new_item_desc {
+    width: 338px;
+}
+
+#new_item button {
+    margin-top: 10px;
+}
+
+#new_item button:not(:last-child) {
+    margin-left: 90px;
+}
+
+
+/* format our list items */
+
+ul li {
+    position: relative;
+    height: 25px;
+}
+
+ul li .item_desc {
+    display: none;
+    postion: absolute;
+    top: 20px;
+    left: 20px;
+    border: 1px solid gray;
+    background: #fff;
+    padding: 1px;
+    z-index: 20;
+}
+
+ul li:hover>.item_desc {
+    display: inline-block;
+}

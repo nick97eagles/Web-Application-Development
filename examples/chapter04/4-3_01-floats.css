@@ -1,0 +1,41 @@
+/* CSS for floats example */
+
+nav {
+  border: 1px solid black;
+  width: 150px;
+  padding: 0px;
+  margin: 0px 15px 15px 15px;
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+nav ul li:not(:first-child) {
+  border-top: 1px solid black;
+}
+
+nav a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: green;
+}
+
+nav a:hover {
+  background: #ddd;
+}
+
+img {
+  height: 250px;
+  float: right;
+}
+
+
+#sec2 {
+  clear: both;
+}

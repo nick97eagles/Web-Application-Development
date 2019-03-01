@@ -1,0 +1,73 @@
+/* page section css */
+
+ol {
+  padding-bottom: 10px;
+}
+
+a { 
+  color: inherit;
+}
+
+/* make the footer text smaller and italic */
+footer {
+  font-size: 10pt;
+  font-style: italic;
+}
+
+/* put a border around the two lists (menus and bulletins) */
+ul > li {
+  border: 1px solid black;
+}
+
+/* hide sublists unless the mouse hovers over the list title 
+ol {
+  display: none;
+}
+
+ul > li:hover > ol {
+  display: block;
+} */
+
+/* strike through the text of the second entry in each sublist without using nth-child */
+ol > li:first-child + li {
+  text-decoration: line-through;
+}
+
+/* make the border around the ordered list that has myattribute="2" dashed */
+ol[myattribute="2"] {
+  border: 1px dashed black;
+}
+
+/* make the insecure links (not https) red */
+a:not([href^="https"]) {
+  color: red;
+}
+
+/* make links to a wallawalla.edu website orange */
+a[href*="wallawalla.edu"] {
+  color: orange;
+}
+
+/* make highlighted text green (note this is not standard CSS) */
+::selection {
+  color: green;
+}
+
+/* add the pdf icon http://www.sanofi-sunrise.com/img/icon_pdf.png at the end of links to pdf files */
+a[href$="pdf"]::after {
+  content: " " url(http://www.sanofi-sunrise.com/img/icon_pdf.png);
+}
+
+/* add a counter to the begining of spans of class "selector" */
+span.selector {
+  counter-increment: spanCtr;
+}
+
+span.selector::before {
+  content: counter(spanCtr) ". ";
+}
+
+/* put the value of myattribute in parentheses after any element with that attribute */
+[myattribute]::after {
+  content: ' (' attr(myattribute) ')';
+}

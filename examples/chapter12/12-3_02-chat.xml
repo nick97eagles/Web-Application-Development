@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<messages>
+    <message time="12:00" sender="system">Welcome to my chat system!</message>
+    <message sender="Dr. Duncan" time="15:06">Hello, is anybody there?</message>
+    <message sender="jdd" time="15:06">Yes, I'm here!</message>
+    <message sender="Dr. Duncan" time="15:07">How are you!</message>
+    <message sender="jdd" time="15:07">I'm fine!</message>
+</messages>

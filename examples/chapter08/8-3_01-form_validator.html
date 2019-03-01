@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Form Example</title>
+    <style type="text/css">
+        .formLabel {
+            display: block;
+            width: 100px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Form Example</h1>
+    <form action="" method="get" id="MyForm">
+        <label>
+            <span class="formLabel">Name:</span>
+            <input type="text" name="cname" value=""/>
+        </label>
+        <label>
+            <span class="formLabel">Status:</span>
+            <label><input type="radio" name="MyStatus" value="st">Student</label>
+            <label><input type="radio" name="MyStatus" value="fa">Faculty</label>
+            <label><input type="radio" name="MyStatus" value="sf">Staff</label>
+        </label>
+        <label>
+            <span class="formLabel">Attends:</span>
+            <select name="attends" multiple="multiple">
+                <option value="class">Classes</option>
+                <option value="chapel">ComUnity</option>
+                <option value="church">Church</option>
+                <option value="colloquia">Colloquia</option>
+                <option value="concert">Concerts</option>
+            </select>
+        </label>
+        <label>
+            <span class="formLabel">Age:</span>
+	        <input type="text" name="age" value="" />
+        </label>
+        <input type="submit" name="DoSubmit" value=" Submit " />
+    </form>
+    <script language="javascript" src="8-3_01-form_validator.js"></script>
+
+    <p>
+        <a href="https://validator.w3.org/check/referer">validate HTML</a>
+        | <a href="https://jigsaw.w3.org/css-validator/check/referer">validate CSS</a>
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+/* box model css */
+
+#outer {
+  border-style: solid;
+  border-color: red;
+  border-width: thick;
+  background: url(http://www.abstractdigitalartgallery.com/artgallery-psion005-abstract-digital-art-fractal-Psytrip.jpg);
+  margin: auto;
+  padding: 10px;
+  width: 75%;
+}
+
+#inner {
+  border: 3px dashed blue;
+  padding: 20px;
+  margin: 15px;
+  background: pink;
+}

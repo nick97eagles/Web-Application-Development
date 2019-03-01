@@ -1,0 +1,57 @@
+/* page section css */
+
+#header {
+  text-align: right;
+  font-family: Helvetical, Arial, sans-serif;
+  border-bottom: 1px solid black;
+  height: 40px;
+}
+
+#nav {
+  float: left;
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#menu {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#menu li {
+  padding: 3px 10px 3px 10px;
+  border-bottom: 1px dotted black;
+}
+
+#menu li:hover {
+  background: #ddd;
+}
+
+#menu li:last-child {
+  border-bottom: none;
+}
+
+#menu li a {
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: black;  
+}
+
+#section1 {
+  margin-top: 15px;
+}
+
+#section2 {
+  clear: left;
+}
+
+#section3 {
+  margin-top: 1500px;
+}
+
+#import {
+  background: red;
+}

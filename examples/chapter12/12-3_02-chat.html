@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Chat System</title>
+    <script type="text/javascript" src="12-3_02-chat.js"></script>
+    <style>
+        h1 {
+            float: left;
+            margin-top: 10px;
+        }
+        
+        #identity {
+            float: right;
+            margin-top: 20px;
+        }
+        
+        form {
+            clear: left;
+        }
+        
+        #dsp {
+            margin-top: 10px;
+            font-family: courier, mono;
+        }
+        
+        #dsp div:nth-child(odd) {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Chat System</h1>
+    <div id="identity">Logged in as: <span id="sender"></span></div>
+    <form>
+        <input type="text" id="msg" value="" placeholder="Enter Message" size="50">
+        <button type="button" id="send">Send</button>
+    </form>
+    <div id="dsp"></div>
+    
+    <p>
+        <a href="https://validator.w3.org/check/referer">validate HTML</a>
+        | <a href="https://jigsaw.w3.org/css-validator/check/referer">validate CSS</a>
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+/* CSS for the display example */
+
+h1,h2 {
+  display: inline;
+}
+
+p span {
+  display: block;
+  background: lightblue;
+}
+
+li {
+  display: inline-block;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+li:hover {
+  background: lightgreen;
+}
+
+li:nth-child(2) {
+  opacity: 1;
+}

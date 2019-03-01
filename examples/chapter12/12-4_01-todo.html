@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="12-4_01-todo.css" type="text/css" />
+    <script type="text/javascript" src="12-4_01-todo.js"></script>
+</head>
+
+<body>
+    <div id="manage_lists" class="section">
+        <div class="section_label">Manage Lists</div>
+        <form>
+            <select id="lists" size="10"></select>
+            <div class="row">
+                <button type="button" id="add_list">add</button>
+                <button type="button" id="del_list">delete</button>
+            </div>
+        </form>
+        <div id="new_list">
+            <form>
+                <label for="new_list_name">List Name:</label>
+                <input type="text" id="new_list_name" placeholder="List Name" />
+                <label for="new_list_due">Due Date:</label>
+                <input type="date" id="new_list_due" />
+                <button type="button" id="new_list_add">add list</button>
+                <button type="button" id="new_list_cancel">cancel</button>
+            </form>
+        </div>
+    </div>
+    <div id="manage_items" class="section">
+        <div class="section_label">Manage Items</div>
+        <div id="list_name">None</div>
+        <ul id="list_items"></ul>
+        <button type="button" id="add_item">add item</button>
+        <button type="button" id="del_item">delete item</button>
+        <div id="new_item">
+            <form>
+                <label for="new_item_title">Item Title:</label>
+                <input id="new_item_title" type="text" size="20" placeholder="Item Title" />
+                <label for="new_item_desc">Description:</label>
+                <textarea id="new_item_desc"></textarea>
+                <button type="button" id="new_item_add">add item</button>
+                <button type="button" id="new_item_cancel">cancel</button>
+            </form>
+        </div>
+    </div>
+    
+    <p>
+        <a href="https://validator.w3.org/check/referer">validate HTML</a>
+        | <a href="https://jigsaw.w3.org/css-validator/check/referer">validate CSS</a>
+    </p>
+</body>
+
+</html>

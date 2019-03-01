@@ -1,0 +1,26 @@
+.label {
+    float: left;
+    width: 14%;
+    margin-top: 10px;
+    padding: 5px;
+    background: #dddddd;
+}
+
+.label+div {
+    float: left;
+    width: 84%;
+    margin-top: 10px;
+    padding: 5px;
+    background: pink;
+}
+
+#comments {
+    clear: left;
+    margin-top: 0px;
+    width: 98.5%;
+}
+
+p:last-child {
+    padding-top: 20px;
+    clear: left;
+}
