@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Famous Quotes</title>
+    <script src="quote.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <h1>Famous Quotes</h1>
+
+    <p>
+        Discover famous quotes from Computer Science
+    </p>
+    <h2>Quote 1</h2>
+    <div>
+        <button onclick="famousQuote(0);previousQuotes(0);">View</button>
+    </div>
+    <div>
+        <button onclick="favoriteQuote(0);">Set Favorite</button>
+    </div>
+    <h2>Quote 2</h2>
+    <div>
+        <button onclick="famousQuote(1);previousQuotes(1);">View</button>
+    </div>
+    <div>
+        <button onclick="favoriteQuote(1);">Set Favorite</button>
+    </div>
+
+
+    <h2>Quotes</h2>
+    <!-- TODO Add buttons to famous quotes. -->
+    <div> 
+        <button onclick="sayMagicWord();previousQuotes();">Say the Magic Word</button> 
+    </div>
+
+    <h2>My Favorite Quote</h2>
+    <p id="favorite">
+        My favorite quote is ...
+    </p>
+
+    <h2>Previous Quotes</h2>
+    <ul id="previous">
+       
+    </ul>
+
+    <p><a href="https://validator.w3.org/check/referer">validate me</a></p>
+
+</body>
+
+</html>

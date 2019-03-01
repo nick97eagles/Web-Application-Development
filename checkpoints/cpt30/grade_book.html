@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Grade Book</title>
+    <script src="grade_book.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <h1>Grade Book</h1>
+
+    <p>
+        A simple grade calculator build in JavaScript.
+    </p>
+
+    <h2>Grade Calculator</h2>
+    <!-- TODO add the letter grade values to the empty column -->
+
+    <div>
+        <p><strong>Scores:</strong> <span id="scores"></span></p>
+        <p><strong>Average:</strong> <span id="average"></span></p>
+        <p><strong>Letter Grade:</strong> <span id="letter_grade"></span></p>
+    </div>
+
+
+    <!-- TODO make an array to hold scores and update the information above -->
+    <div>
+        <label for="score">Score:</label>
+        <input type="text" name="score" id="score"><br />
+        <button type="button" onclick="getScore();">Add</button>
+        <button type="button" onclick="remove_item();">Remove</button>
+        <button>Sort</button>
+        <button>Clear</button>
+    </div>
+
+    <p><a href="https://validator.w3.org/check/referer">validate me</a></p>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CS Department</title>
+    <script src="department.js"></script> 
+</head>
+
+<body>
+    <h1>CS Department</h1>
+
+    <p>
+        A few online tools for Computer Science Department.
+    </p>
+
+
+    <h2>Grade Calculator</h2>
+    <!-- TODO Add buttons to famous quotes. -->
+
+    <form>
+        <label for="hw1-score">Homework 1:</label>
+        <input type="text" name="hw1-score" id="hw1-score"> out of
+        <input type="text" name="hw1-total" id="hw1-total"><br />
+
+        <label for="hw2-score">Homework 2:</label>
+        <input type="text" name="hw2-score" id="hw2-score"> out of
+        <input type="text" name="hw2-total" id="hw2-total"><br />
+
+        <label for="hw3score">Homework 3:</label>
+        <input type="text" name="hw3-score" id="hw3-score"> out of
+        <input type="text" name="hw3-total" id="hw3-total"><br />
+
+        <button type="button" onclick="getGradeAverage();">Calculate Grade</button>
+    </form>
+
+    <p>
+        Your homework score is "<span id="hw-score"></span>" out of "<span id="hw-total"></span>" giving you an average of "<span id="hw-average"></span>".
+    </p>
+
+
+    <h2>CS Lab Account Name</h2>
+
+    <form>
+        <label for="first-name">First Name:</label>
+        <input type="text" name="first-name" id="first-name"><br />
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name" id="last-name"><br />
+        <button type="button" onclick="get_username();">Build Account Name</button>
+    </form>
+
+    <p>
+        Your lab account is "<span id="cs_lab_account"></span>".
+    </p>
+
+    <p><a href="https://validator.w3.org/check/referer">validate me</a></p>
+
+</body>
+
+</html>

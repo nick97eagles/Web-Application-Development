@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CS Department</title>
+    <script src="department.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <h1>CS Department</h1>
+
+    <p>
+        A few online tools for Computer Science Department.
+    </p>
+
+    <h2>Grade Calculator</h2>
+    <!-- TODO add the letter grade values to the empty column -->
+
+    <div>
+        <table id="class-roster">
+            <thead>
+                <tr>
+                    <th>Student</th>
+                    <th>Score</th>
+                    <th>Letter Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="row_1">
+                    <td>Bryher Wendell</td>
+                    <td class="score"><span id="score_1">87</span></td>
+                    <td class="letter-grade"><span id="letter-grade_1"></span></td>
+                </tr>
+                <tr id="row_2">
+                    <td>Skylar Allison</td>
+                    <td class="score"><span id="score_2">85</span></td>
+                    <td class="letter-grade"><span id="letter-grade_2"></span></td>
+                </tr>
+                <tr id="row_3">
+                    <td>Aislinn Pusey</td>
+                    <td class="score"><span id="score_3">96</span></td>
+                    <td class="letter-grade"><span id="letter-grade_3"></span></td>
+                </tr>
+                <tr id="row_4">
+                    <td>Mattea Popovich</td>
+                    <td class="score"><span id="score_4">45</span></td>
+                    <td class="letter-grade"><span id="letter-grade_4"></span></td>
+                </tr>
+                <tr id="row_5">
+                    <td>Morris Pusey</td>
+                    <td class="score"><span id="score_5">91</span></td>
+                    <td class="letter-grade"><span id="letter-grade_5"></span></td>
+                </tr>
+                <tr id="row_6">
+                    <td>Hema Paynter</td>
+                    <td class="score"><span id="score_6">65</span></td>
+                    <td class="letter-grade"><span id="letter-grade_6"></span></td>
+                </tr>
+                <tr id="row_7">
+                    <td>Junior Humphrey</td>
+                    <td class="score"><span id="score_7">77</span></td>
+                    <td class="letter-grade"><span id="letter-grade_7"></span></td>
+                </tr>
+                <tr id="row_8">
+                    <td>Kisa Ronquillo</td>
+                    <td class="score"><span id="score_8">81</span></td>
+                    <td class="letter-grade"><span id="letter-grade_8"></span></td>
+                </tr>
+                <tr id="row_9">
+                    <td>Sukutai Hamlet</td>
+                    <td class="score"><span id="score_9">94</span></td>
+                    <td class="letter-grade"><span id="letter-grade_9"></span></td>
+                </tr>
+                <tr id="row_10">
+                    <td>Parthenia Romine</td>
+                    <td class="score"><span id="score_10">88</span></td>
+                    <td class="letter-grade"><span id="letter-grade_10"></span></td>
+                </tr>
+                <tr id="row_11">
+                    <td>Bersh Wendell</td>
+                    <td class="score"><span id="score_11">68</span></td>
+                    <td class="letter-grade"><span id="letter-grade_11"></span></td>
+                </tr>
+                <tr id="row_12">
+                    <td>Secundus Ronquillo</td>
+                    <td class="score"><span id="score_12">76</span></td>
+                    <td class="letter-grade"><span id="letter-grade_12"></span></td>
+                </tr>
+            </tbody>
+        </table>>
+
+        <button type="button" onclick="letterGrade();">Calculate Letter Grade</button>
+    </div>
+
+
+    <h2>CS Lab Account Name</h2>
+
+    <div>
+        <label for="first-name">First Name:</label>
+        <input type="text" name="first-name" id="first-name"><br />
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name" id="last-name"><br />
+        <button>Build Account Name</button>
+    </div>
+
+    <!-- TODO add the account name here -->
+    <p>
+        Your lab account is "<span id="cs_lab_account"></span>".
+    </p>
+
+    <p><a href="https://validator.w3.org/check/referer">validate me</a></p>
+
+</body>
+
+</html>
