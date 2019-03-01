@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Roster</title>
+    <script src="roster_data.php" type="text/javascript"></script>
+    <script src="roster.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <h1>Roster</h1>
+
+    <p>
+        The roster for the Pink Pirates.
+    </p>
+
+    <h2>Player List</h2>
+
+    <div id="roster_table">
+        <button id="load_roster">Load Roster</button>
+    </div>
+
+    <h2>User Info</h2>
+
+    <div>
+        <button onclick="getInfo();">Browser Info</button><br>
+        <span id="output"></span><br>
+
+        <button onclick="checkpoint();">Current Checkpoint</button><br>
+        <span id="cpt"></span> 
+    </div>
+
+    
+
+    <p><a href="https://validator.w3.org/check/referer">validate me</a></p>
+
+</body>
+
+</html>
